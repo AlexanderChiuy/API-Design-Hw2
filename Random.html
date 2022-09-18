@@ -22,10 +22,13 @@
 &nbsp;<br>
 Args:<br>
 &nbsp;-&nbsp;choices:&nbsp;a&nbsp;list&nbsp;of&nbsp;possible&nbsp;items&nbsp;to&nbsp;choose&nbsp;from.&nbsp;This&nbsp;list&nbsp;can&nbsp;compose&nbsp;of&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;different&nbsp;typed&nbsp;items&nbsp;or&nbsp;all&nbsp;the&nbsp;same&nbsp;types.&nbsp;Ex.&nbsp;choices&nbsp;=&nbsp;["a",&nbsp;1,&nbsp;"b",&nbsp;dict()]&nbsp;or&nbsp;["hello",&nbsp;"hi",&nbsp;"howdy"]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will&nbsp;raise&nbsp;a&nbsp;ValueError&nbsp;for&nbsp;None&nbsp;or&nbsp;empty&nbsp;list.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;different&nbsp;typed&nbsp;items&nbsp;or&nbsp;all&nbsp;the&nbsp;same&nbsp;type.&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example:&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choices&nbsp;=&nbsp;["a",&nbsp;1,&nbsp;"b",&nbsp;dict()]&nbsp;or&nbsp;["hello",&nbsp;"hi",&nbsp;"howdy"]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exception:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ValueError&nbsp;for&nbsp;None&nbsp;or&nbsp;empty&nbsp;list&nbsp;<br>
 &nbsp;<br>
-Returns:&nbsp;an&nbsp;item&nbsp;randomly&nbsp;from&nbsp;the&nbsp;choices&nbsp;list.&nbsp;Return&nbsp;type&nbsp;can&nbsp;be&nbsp;any&nbsp;type&nbsp;in&nbsp;the&nbsp;choices&nbsp;list<br>
+Returns:&nbsp;an&nbsp;item&nbsp;randomly&nbsp;from&nbsp;the&nbsp;"choices"&nbsp;list.&nbsp;Return&nbsp;type&nbsp;can&nbsp;be&nbsp;any&nbsp;type&nbsp;in&nbsp;the&nbsp;"choices"&nbsp;list<br>
 &nbsp;<br>
 Example&nbsp;Use&nbsp;Case:&nbsp;<br>
 &nbsp;&nbsp;&nbsp;randomColor&nbsp;=&nbsp;<a href="#-selectRandom">selectRandom</a>(["red",&nbsp;"yellow",&nbsp;"blue"])</tt></dd></dl>
